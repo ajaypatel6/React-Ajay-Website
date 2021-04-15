@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/React-Ajay-Website/static/css/main.786f02c8.chunk.css",
+    "main.js": "/React-Ajay-Website/static/js/main.bfd2ace7.chunk.js",
+    "main.js.map": "/React-Ajay-Website/static/js/main.bfd2ace7.chunk.js.map",
+    "runtime-main.js": "/React-Ajay-Website/static/js/runtime-main.ba643e70.js",
+    "runtime-main.js.map": "/React-Ajay-Website/static/js/runtime-main.ba643e70.js.map",
+    "static/js/2.5d775537.chunk.js": "/React-Ajay-Website/static/js/2.5d775537.chunk.js",
+    "static/js/2.5d775537.chunk.js.map": "/React-Ajay-Website/static/js/2.5d775537.chunk.js.map",
+    "index.html": "/React-Ajay-Website/index.html",
+    "static/css/main.786f02c8.chunk.css.map": "/React-Ajay-Website/static/css/main.786f02c8.chunk.css.map",
+    "static/js/2.5d775537.chunk.js.LICENSE.txt": "/React-Ajay-Website/static/js/2.5d775537.chunk.js.LICENSE.txt",
+    "static/media/Connect-4.af374241.jpg": "/React-Ajay-Website/static/media/Connect-4.af374241.jpg",
+    "static/media/book.2973aaec.jpg": "/React-Ajay-Website/static/media/book.2973aaec.jpg",
+    "static/media/code.90a2fb58.png": "/React-Ajay-Website/static/media/code.90a2fb58.png",
+    "static/media/copy.4333a514.jpg": "/React-Ajay-Website/static/media/copy.4333a514.jpg",
+    "static/media/d1.ef7e35fb.png": "/React-Ajay-Website/static/media/d1.ef7e35fb.png",
+    "static/media/firestore.23f0324c.png": "/React-Ajay-Website/static/media/firestore.23f0324c.png",
+    "static/media/github.c8007a9f.png": "/React-Ajay-Website/static/media/github.c8007a9f.png",
+    "static/media/java.4f38c6f4.png": "/React-Ajay-Website/static/media/java.4f38c6f4.png",
+    "static/media/mDash.d8771f85.jpg": "/React-Ajay-Website/static/media/mDash.d8771f85.jpg",
+    "static/media/mStats.49a56d4d.jpg": "/React-Ajay-Website/static/media/mStats.49a56d4d.jpg",
+    "static/media/medi.82ac7206.jpg": "/React-Ajay-Website/static/media/medi.82ac7206.jpg",
+    "static/media/mongodb.48a63852.png": "/React-Ajay-Website/static/media/mongodb.48a63852.png",
+    "static/media/index.css": "/React-Ajay-Website/static/media/mountains.0c667b05.jpg",
+    "static/media/mysql.cfe3255a.png": "/React-Ajay-Website/static/media/mysql.cfe3255a.png",
+    "static/media/react.22d7bda8.png": "/React-Ajay-Website/static/media/react.22d7bda8.png",
+    "static/media/results.7a3a8064.png": "/React-Ajay-Website/static/media/results.7a3a8064.png",
+    "static/media/resume.41fc21f1.png": "/React-Ajay-Website/static/media/resume.41fc21f1.png",
+    "static/media/shortsAuth.03a462be.png": "/React-Ajay-Website/static/media/shortsAuth.03a462be.png",
+    "static/media/shortsDash.973813d3.png": "/React-Ajay-Website/static/media/shortsDash.973813d3.png",
+    "static/media/shortsEditor.0d235002.png": "/React-Ajay-Website/static/media/shortsEditor.0d235002.png",
+    "static/media/shortsLogin.a4dd6047.png": "/React-Ajay-Website/static/media/shortsLogin.a4dd6047.png",
+    "static/media/tadiagram.f05b2c53.png": "/React-Ajay-Website/static/media/tadiagram.f05b2c53.png",
+    "static/media/token.7d234ab9.jpg": "/React-Ajay-Website/static/media/token.7d234ab9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba643e70.js",
+    "static/js/2.5d775537.chunk.js",
+    "static/css/main.786f02c8.chunk.css",
+    "static/js/main.bfd2ace7.chunk.js"
+  ]
+}
