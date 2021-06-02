@@ -5,7 +5,7 @@ const Technologies = ({ filterItems, technologies }) => {
   return (
     <>
       <h1>
-        <div className="title">My Projects</div>
+        <div className="title">Portfolio</div>
         <div className="underline"></div>
       </h1>
       <div className="btn-container">

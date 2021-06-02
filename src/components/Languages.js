@@ -11,6 +11,7 @@ import python from "../images/techImages/python.png";
 
 import mongodb from "../images/techImages/mongodb.png";
 import mysql from "../images/techImages/mysql.png";
+import node from "../images/techImages/node.png";
 
 const Languages = () => {
   return (
@@ -31,6 +32,12 @@ const Languages = () => {
           title="React.js"
         />
         <h4 className="language-stack">Backend</h4>
+        <img
+          src={node}
+          alt="node"
+          className="languagesShrink "
+          title="Node.js"
+        />
         <img src={java} alt="java" className="languagesShrink" title="Java" />
         <img
           src={kotlin}

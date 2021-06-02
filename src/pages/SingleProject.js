@@ -48,16 +48,16 @@ const SingleProject = ({ items }) => {
             } = project;
             return (
               <article key={id} className="project-item">
-                <Link to="/" className="btn good-btn">
-                  Go back
+                <Link to="/" className="btn good-btn ">
+                  <h6>Go back</h6>
                 </Link>
-
                 <div className="item-info">
                   <h4 className="item-text">{longtext}</h4>
-                  <h4>{longtech}</h4>{" "}
-                  <a className="item-text filter-btn" href={github}>
+                  <h4 className="description-text">{longtech}</h4>{" "}
+                  <a className="filter-btn" href={github}>
                     Link to github
                   </a>
+                  <div className="underline"></div>
                   <img src={mantispic1} className="mantis-img" />
                   <img src={mantispic2} className="mantis-img " />
                   <img src={mantispic3} className="mantis-img" />
