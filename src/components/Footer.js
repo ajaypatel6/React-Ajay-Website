@@ -1,5 +1,5 @@
 import React from "react";
-import "../index.css";
+// import "../index.css";
 
 import github from "../images/github.png";
 import gmail from "../images/gmail.png";
