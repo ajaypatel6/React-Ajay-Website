@@ -15,7 +15,13 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 //css
+import "./index.css";
 
+//images
+import github from "./images/github.png";
+import gmail from "./images/gmail.png";
+import linkicon from "./images/linkicon.png";
+import resume from "./images/resume.png";
 //projects data
 import items from "./data/data";
 
@@ -179,7 +185,7 @@ function App() {
               <div class="col-md-4 mb-3 mb-md-0">
                 <div class="card py-4 h-100">
                   <div class="card-body text-center">
-                    <i class="fa fa-map-marked-alt text-primary mb-2"></i>
+                    {/* <i class="fa fa-map-marked-alt text-primary mb-2"></i> */}
                     <h4 class="text-uppercase m-0">Location</h4>
                     <hr class="my-4 mx-auto" />
                     <div class="small text-black-50">Hamilton, Ontario</div>
@@ -189,11 +195,17 @@ function App() {
               <div class="col-md-4 mb-3 mb-md-0">
                 <div class="card py-4 h-100">
                   <div class="card-body text-center">
-                    <i class="fa fa-envelope text-primary mb-2"></i>
+                    <img src={gmail} alt="gmail" className="footer-img" />
+
                     <h4 class="text-uppercase m-0">Email</h4>
                     <hr class="my-4 mx-auto" />
                     <div class="small text-black-50">
-                      <a href="#!">ajaypatel23623@gmail.com</a>
+                      <a
+                        href="mailto:ajaypatel23623@gmail.com"
+                        className="footer-seperation footer-btn"
+                      >
+                        ajaypatel23623@gmail.com
+                      </a>{" "}
                     </div>
                   </div>
                 </div>
@@ -201,7 +213,7 @@ function App() {
               <div class="col-md-4 mb-3 mb-md-0">
                 <div class="card py-4 h-100">
                   <div class="card-body text-center">
-                    <i class="fa fa-mobile-alt text-primary mb-2"></i>
+                    {/* <i class="fa fa-mobile-alt text-primary mb-2"></i> */}
                     <h4 class="text-uppercase m-0">Phone</h4>
                     <hr class="my-4 mx-auto" />
                     <div class="small text-black-50">289-489-8571</div>
@@ -211,30 +223,54 @@ function App() {
               <div class="col-md-4 mb-3 mb-md-0">
                 <div class="card py-4 h-100">
                   <div class="card-body text-center">
-                    <i class="fa fa-mobile-alt text-primary mb-2"></i>
+                    <img src={github} alt="github" className="footer-img" />
                     <h4 class="text-uppercase m-0">Github</h4>
                     <hr class="my-4 mx-auto" />
-                    <div class="small text-black-50">link to github</div>
+                    <div class="small text-black-50">
+                      <a
+                        href="https://github.com/ajaypatel6"
+                        // className="footer-seperation footer-btn "
+                      >
+                        Github
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>{" "}
               <div class="col-md-4 mb-3 mb-md-0">
                 <div class="card py-4 h-100">
                   <div class="card-body text-center">
-                    <i class="fa fa-mobile-alt text-primary mb-2"></i>
+                    <img src={linkicon} alt="linkicon" className="footer-img" />{" "}
                     <h4 class="text-uppercase m-0">LinkedIn</h4>
                     <hr class="my-4 mx-auto" />
-                    <div class="small text-black-50">link to link</div>
+                    <div class="small text-black-50">
+                      {" "}
+                      <a
+                        href="https://www.linkedin.com/in/ajay-patel-13b13b113/"
+                        // className="footer-seperation footer-btn"
+                      >
+                        LinkedIn
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>{" "}
               <div class="col-md-4 mb-3 mb-md-0">
                 <div class="card py-4 h-100">
                   <div class="card-body text-center">
-                    <i class="fa fa-mobile-alt text-primary mb-2"></i>
-                    <h4 class="text-uppercase m-0">Download Resume</h4>
+                    <img src={resume} alt="resume" className="footer-img" />
+                    <h4 class="text-uppercase m-0"> Resume</h4>
                     <hr class="my-4 mx-auto" />
-                    <div class="small text-black-50">resume download</div>
+                    <div class="small text-black-50">
+                      {" "}
+                      <a
+                        href="Ajay.doc"
+                        // className="footer-seperation footer-btn"
+                        download
+                      >
+                        Download Resume
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
