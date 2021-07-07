@@ -19,7 +19,7 @@ const Projects = ({ items }) => {
                 <p className="item-text">{text}</p>
 
                 <Link to={`/project/${name}`} className="btn good-btn">
-                  Details about {name}
+                  See more
                 </Link>
               </div>
             </article>

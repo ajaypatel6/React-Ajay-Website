@@ -66,8 +66,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
+  color: blue;
+  background-color: rgba(255, 255, 255, 0.534);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -215,7 +215,7 @@ strong {
 
 small,
 .small {
-  font-size: 0.875em;
+  font-size: 1em;
 }
 
 mark,
@@ -241,11 +241,11 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: #3e2da0;
   text-decoration: underline;
 }
 a:hover {
-  color: #50817e;
+  color: #017395;
 }
 
 a:not([href]):not([class]),
@@ -4691,8 +4691,9 @@ fieldset:disabled .btn {
   display: flex;
   flex-direction: column;
   min-width: 0;
+
   word-wrap: break-word;
-  background-color: #15bbd1;
+  background-color: #a7f2ff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -7948,6 +7949,7 @@ fieldset:disabled .btn {
 
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important;
+  font-size: 5sp;
 }
 
 .text-white-50 {
@@ -7991,7 +7993,17 @@ fieldset:disabled .btn {
 }
 
 .bg-black {
-  background-color: #000 !important;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000 100%
+    ),
+    url("../img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .bg-white {
@@ -9149,7 +9161,7 @@ fieldset:disabled .btn {
   }
 
   .mb-md-0 {
-    margin-bottom: 0 !important;
+    margin-bottom: 2rem !important;
   }
 
   .mb-md-1 {
@@ -11415,9 +11427,10 @@ body {
   letter-spacing: 0.0625em;
 }
 
+/* NAV SHRANK */
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background: url("../img/header.jpg");
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11464,11 +11477,17 @@ body {
     color: rgba(255, 255, 255, 0.75);
   }
   #mainNav .nav-link:active {
-    color: #fff;
+    color: rgb(97, 0, 253);
   }
+  /* THIS NAVBAR COLOR */
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background: url("../img/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
   }
+
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
   }
@@ -11514,7 +11533,7 @@ body {
       rgba(0, 0, 0, 0.7) 75%,
       #000 100%
     ),
-    url("../img/bg-masthead.jpg");
+    url("../img/mountains2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11576,8 +11595,21 @@ body {
   margin-bottom: 5rem;
 }
 
+/* COLOR for projects area */
 .projects-section {
-  padding: 10rem 0;
+  padding: 2rem 0;
+  padding-bottom: 6rem;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000 100%
+    ),
+    url("../img/projectmountains.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11631,7 +11663,8 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding-top: 10.3rem;
+  padding-bottom: 8.2rem;
 }
 .contact-section .card {
   border: 0;
@@ -11658,7 +11691,7 @@ body {
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.876);
   border-radius: 100%;
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
