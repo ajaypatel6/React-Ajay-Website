@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.359ab8bd.chunk.css",
-    "main.js": "/static/js/main.93f5b673.chunk.js",
-    "main.js.map": "/static/js/main.93f5b673.chunk.js.map",
+    "main.css": "/static/css/main.d65be04d.chunk.css",
+    "main.js": "/static/js/main.cbacf0e0.chunk.js",
+    "main.js.map": "/static/js/main.cbacf0e0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e65263d2.js",
     "runtime-main.js.map": "/static/js/runtime-main.e65263d2.js.map",
-    "static/js/2.5d775537.chunk.js": "/static/js/2.5d775537.chunk.js",
-    "static/js/2.5d775537.chunk.js.map": "/static/js/2.5d775537.chunk.js.map",
+    "static/css/2.d45d6843.chunk.css": "/static/css/2.d45d6843.chunk.css",
+    "static/js/2.c48ca51b.chunk.js": "/static/js/2.c48ca51b.chunk.js",
+    "static/js/2.c48ca51b.chunk.js.map": "/static/js/2.c48ca51b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.359ab8bd.chunk.css.map": "/static/css/main.359ab8bd.chunk.css.map",
-    "static/js/2.5d775537.chunk.js.LICENSE.txt": "/static/js/2.5d775537.chunk.js.LICENSE.txt",
+    "static/css/2.d45d6843.chunk.css.map": "/static/css/2.d45d6843.chunk.css.map",
+    "static/css/main.d65be04d.chunk.css.map": "/static/css/main.d65be04d.chunk.css.map",
+    "static/js/2.c48ca51b.chunk.js.LICENSE.txt": "/static/js/2.c48ca51b.chunk.js.LICENSE.txt",
     "static/media/Connect-4.af374241.jpg": "/static/media/Connect-4.af374241.jpg",
+    "static/media/styles.css": "/static/media/mountains2.a5c5a65d.jpg",
     "static/media/book.2973aaec.jpg": "/static/media/book.2973aaec.jpg",
     "static/media/code.90a2fb58.png": "/static/media/code.90a2fb58.png",
     "static/media/copy.4333a514.jpg": "/static/media/copy.4333a514.jpg",
@@ -22,9 +25,9 @@
     "static/media/mStats.49a56d4d.jpg": "/static/media/mStats.49a56d4d.jpg",
     "static/media/medi.82ac7206.jpg": "/static/media/medi.82ac7206.jpg",
     "static/media/mongodb.48a63852.png": "/static/media/mongodb.48a63852.png",
-    "static/media/index.css": "/static/media/mountains.0c667b05.jpg",
     "static/media/mysql.cfe3255a.png": "/static/media/mysql.cfe3255a.png",
     "static/media/node.007e99f6.png": "/static/media/node.007e99f6.png",
+    "static/media/index.css": "/static/media/projectmountains.b491bb9f.jpg",
     "static/media/react.22d7bda8.png": "/static/media/react.22d7bda8.png",
     "static/media/results.7a3a8064.png": "/static/media/results.7a3a8064.png",
     "static/media/resume.41fc21f1.png": "/static/media/resume.41fc21f1.png",
@@ -37,8 +40,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e65263d2.js",
-    "static/js/2.5d775537.chunk.js",
-    "static/css/main.359ab8bd.chunk.css",
-    "static/js/main.93f5b673.chunk.js"
+    "static/css/2.d45d6843.chunk.css",
+    "static/js/2.c48ca51b.chunk.js",
+    "static/css/main.d65be04d.chunk.css",
+    "static/js/main.cbacf0e0.chunk.js"
   ]
 }
