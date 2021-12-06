@@ -1,5 +1,7 @@
 import connect4 from "../images/longDescription/Connect-4.jpg";
 import med from "../images/longDescription/medi.jpg";
+import stonks from "../images/longDescription/stonks.jpg";
+import bok from "../images/longDescription/bookchap.jpg";
 
 import book from "../images/longDescription/book.jpg";
 
@@ -24,7 +26,7 @@ import copy from "../images/longDescription/copy.jpg";
 const projects = [
   {
     id: 1,
-    name: "Meditation Timer",
+    name: "Meditation Timer (Java)",
     technology: "Android",
     github: "https://github.com/ajaypatel6/Meditation",
     image: med,
@@ -39,7 +41,7 @@ const projects = [
   },
   {
     id: 2,
-    name: "Short Story",
+    name: "Short Story (Kotlin)",
     technology: "Android",
     github: "https://github.com/ajaypatel6/Shorts",
     image:
@@ -57,21 +59,21 @@ const projects = [
   },
   {
     id: 3,
-    name: "Manage Me",
+    name: "Manage Me (React, Node.js, SQL)",
     technology: "Web",
     github: "https://github.com/ajaypatel6/",
     image:
       "https://kalys-solutions.com/wp-content/uploads/2016/01/time_manage_c.jpg",
-    text: "WORK IN PROGRESSWORK IN PROGRESSWORK IN PROGRESS",
+    text: "React web app for you to track your daily habits and progress",
     longtext:
-      "A scheduling site for my daily needs to enable higher productivity. Allows scheduling events, finishing pomodoros daily and meditation.",
+      "A scheduling site for my daily needs to enable higher productivity. Allows scheduling events, finishing pomodoros daily and meditation as well as keep notes.",
     longtech:
-      "Using React for the front end, possibly postgreqsl for db and php for backend?? we will see what happens",
+      "Using React for the front end, SQL for db and NODE.js for backend?s",
     longpics: "",
   },
   {
     id: 4,
-    name: "Mantis",
+    name: "Mantis (Java, PHP, Agile)",
     technology: "School Projects/ Other",
     github: "https://github.com/ajaypatel6/Mantis",
     image: copy,
@@ -94,7 +96,7 @@ const projects = [
 
   {
     id: 5,
-    name: "Reading Speed Tracker",
+    name: "Reading Speed Tracker(Python)",
     technology: "School Projects/ Other",
     github: "https://github.com/ajaypatel6/PDFSpeedReading",
     image: book,
@@ -106,7 +108,7 @@ const projects = [
   },
   {
     id: 6,
-    name: "Connect 4 with Minimax",
+    name: "Connect 4 with Minimax(Java)",
     technology: "School Projects/ Other",
     github:
       "https://github.com/ajaypatel6/SchoolProjects/tree/main/Connect4Minimax",
@@ -117,6 +119,33 @@ const projects = [
     longtech: "Using java, Minimax algorithm",
     longpics: "",
   },
+  {
+    id: 7,
+    name: "AllInvestments",
+    technology: "Web",
+    github:
+      "https://github.com/ajaypatel6/investments",
+    image: stonks,
+    text: "Web app to track all investments (crypto, stocks)",
+    longtext:
+      "Web application (might use react native for mobile transition) that allows you to view all of your investments on one platform",
+    longtech: "Using React, Node.js and Postgresql",
+    longpics: "",
+  },
+  {
+    id: 8,
+    name: "User generated book chapter project",
+    technology: "Web",
+    github:
+      "https://github.com/ajaypatel6/",
+    image: bok,
+    text: "Web app for users to create quick summaries for books by chapter",
+    longtext:
+      "In planning ",
+    longtech: "technology in progress",
+    longpics: "",
+  },
+
 ];
 
 export default projects;
