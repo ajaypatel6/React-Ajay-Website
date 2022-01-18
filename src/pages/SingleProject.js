@@ -59,17 +59,17 @@ const SingleProject = ({ items }) => {
                     Link to github
                   </a>
                   <div className="underline"></div>
-                  <img alt="m1" src={mantispic1} className="mantis-img" />
-                  <img alt="m2" src={mantispic2} className="mantis-img " />
-                  <img alt="m3" src={mantispic3} className="mantis-img" />
-                  <img alt="m4" src={mantispic4} className="mantis-img" />
-                  <img alt="m5" src={mantispic5} className="mantis-img" />
+                  <img src={mantispic1} className="mantis-img" />
+                  <img src={mantispic2} className="mantis-img " />
+                  <img src={mantispic3} className="mantis-img" />
+                  <img src={mantispic4} className="mantis-img" />
+                  <img src={mantispic5} className="mantis-img" />
                   <div className="images-container">
-                    <img alt="l1" src={longpics1} className="project-img" />
-                    <img alt="l2" src={longpics2} className="project-img" />
-                    <img alt="l3" src={longpics3} className="project-img" />
-                    <img alt="l4" src={longpics4} className="project-img" />
-                    <img alt="l5" src={longpics5} className="project-img" />
+                    <img src={longpics1} className="project-img" />
+                    <img src={longpics2} className="project-img" />
+                    <img src={longpics3} className="project-img" />
+                    <img src={longpics4} className="project-img" />
+                    <img src={longpics5} className="project-img" />
                   </div>
                 </div>
               </article>

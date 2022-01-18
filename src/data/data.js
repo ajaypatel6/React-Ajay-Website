@@ -125,7 +125,7 @@ const projects = [
   },
   {
     id: 7,
-    name: "AllInvestments",
+    name: "AllInvestments(React, Postgresql, Node.js)",
     technology: "Web",
     github: "https://github.com/ajaypatel6/investments",
     image: stonks,
