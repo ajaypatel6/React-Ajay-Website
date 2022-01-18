@@ -1,20 +1,19 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // app = home
 
 // pages
 import Error from "./pages/Error";
 import SingleProject from "./pages/SingleProject";
-import { FaBars } from "react-icons/fa";
+// import { FaBars } from "react-icons/fa";
 
 //components
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import Languages from "./components/Languages";
 
-import Description from "./components/Description";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 //css
 import "./index.css";
@@ -34,7 +33,7 @@ const allTechnologies = [
 
 function App() {
   const [projects, setProjects] = useState(items);
-  const [technologies, setTechnologies] = useState(allTechnologies);
+  const [technologies] = useState(allTechnologies);
 
   const filterItems = (technology) => {
     if (technology === "all") {
@@ -53,11 +52,11 @@ function App() {
           id="mainNav"
         >
           <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand ajaypatel" href="/">
               Ajay Patel
             </a>
             <button
-              class="navbar-toggler navbar-toggler-right"
+              class="navbar-toggler navbar-toggler-right filter-btn"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarResponsive"
@@ -71,17 +70,17 @@ function App() {
             <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class=" title-menu " href="/">
                     About
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#projects">
+                  <a class="  title-menu" href="#projects">
                     Projects
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact">
+                  <a class="  title-menu" href="#contact">
                     Contact
                   </a>
                 </li>
@@ -96,12 +95,12 @@ function App() {
                 <h1 class="mx-auto my-0 text-uppercase">Software Developer</h1>
                 <h2 class="text-white-50 mx-auto mt-2 mb-5">
                   Currently located in Hamilton, Ontario after graduating in
-                  October 2020 with a Bachelors of Computer Science. I have
-                  interests in Gaming, Fitness and Learning new technologies.
-                  Currently learning React and NodeJS as well as continuing to
-                  make android applications with Kotlin. Looking forward to
-                  build my skills and become a Full-Stack Developer to work on
-                  exciting projects
+                  with a Bachelors of Computer Science primarily working with
+                  Java. I have interests in Gaming, Fitness and Learning new
+                  technologies. Currently learning React and NodeJS as well as
+                  learning Unity/C# and Blender. Looking forward to build my
+                  skills and become a Full-Stack Developer to work on exciting
+                  projects.
                 </h2>
                 <a class="btn good-btn" href="#projects">
                   View Projects
@@ -218,7 +217,7 @@ function App() {
                     <div class="small text-black-50">
                       {" "}
                       <a
-                        href="Ajay.doc"
+                        href="AjayPatel.pdf"
                         // className="footer-seperation footer-btn"
                         download
                       >
@@ -232,25 +231,6 @@ function App() {
           </div>
         </section>
       </div>
-      {/* <Router>
-        <Description></Description>
-        <Switch>
-          <Route exact path="/">
-            <Technologies
-              filterItems={filterItems}
-              technologies={technologies}
-            ></Technologies>
-            <Projects items={projects}></Projects>
-          </Route>
-          <Route path="/project/:name">
-            <SingleProject items={projects} />
-          </Route>
-          <Route path="*">
-            <Error />
-          </Route>
-        </Switch>
-        <Footer></Footer>
-      </Router> */}
     </>
   );
 }

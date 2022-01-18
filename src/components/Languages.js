@@ -12,6 +12,9 @@ import python from "../images/techImages/python.png";
 import mongodb from "../images/techImages/mongodb.png";
 import mysql from "../images/techImages/mysql.png";
 import node from "../images/techImages/node.png";
+// import nodeexpress from "../images/techImages/nodeexpress.png";
+
+import postgres from "../images/techImages/postgresql.png";
 
 const Languages = () => {
   return (
@@ -63,6 +66,12 @@ const Languages = () => {
           alt="mysql"
           className="languagesShrink "
           title="MySQL"
+        />
+        <img
+          src={postgres}
+          alt="postgresql"
+          className="languagesShrink "
+          title="postgresql"
         />
         <img
           src={firestore}

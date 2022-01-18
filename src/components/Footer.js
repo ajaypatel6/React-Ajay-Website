@@ -35,7 +35,7 @@ const Footer = () => {
         </a>
 
         <img src={resume} alt="resume" className="footer-img" />
-        <a href="Ajay.doc" className="footer-seperation footer-btn" download>
+        <a href="AjayPatel.pdf" className="footer-seperation footer-btn" download>
           Download Resume
         </a>
       </div>

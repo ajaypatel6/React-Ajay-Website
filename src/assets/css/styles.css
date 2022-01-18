@@ -4389,7 +4389,7 @@ fieldset:disabled .btn {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 2rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -6753,8 +6753,8 @@ fieldset:disabled .btn {
 }
 
 .fixed-top {
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: 20px;
   right: 0;
   left: 0;
   z-index: 1030;
@@ -11429,8 +11429,10 @@ body {
 
 /* NAV SHRANK */
 #mainNav {
+  /* background-repeat: no-repeat; */
+  object-fit: cover;
+
   min-height: 3.5rem;
-  background: url("../img/header.jpg");
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11481,7 +11483,9 @@ body {
   }
   /* THIS NAVBAR COLOR */
   #mainNav.navbar-shrink {
-    background: url("../img/header.jpg");
+    object-fit: cover;
+
+    /* background: url("../img/header.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -11489,7 +11493,7 @@ body {
   }
 
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000;
+    color: skyblue;
   }
   #mainNav.navbar-shrink .nav-link {
     color: #000;

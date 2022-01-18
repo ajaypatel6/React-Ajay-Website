@@ -6,7 +6,7 @@ const Projects = ({ items }) => {
     <>
       <div className="section-center">
         {items.map((project) => {
-          const { id, name, technology, github, image, text } = project;
+          const { id, name, image, text } = project;
           return (
             <article key={id} className="menu-item">
               <img src={image} alt={name} className="photo" />

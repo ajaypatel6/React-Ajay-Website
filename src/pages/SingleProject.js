@@ -1,20 +1,17 @@
 import React from "react";
-import Loading from "../components/Loading";
 import { useParams, Link } from "react-router-dom";
-import projects from "../data/data";
 
 const SingleProject = ({ items }) => {
   const { name } = useParams();
-  const [loading, setLoading] = React.useState(false);
-  const [project, setProject] = React.useState(items);
+  // const [project, setProject] = React.useState(items);
 
-  React.useEffect(() => {
-    let projectData = items.filter((project) => project.name === name);
-    console.log(projectData);
+  // React.useEffect(() => {
+  //   let projectData = items.filter((project) => project.name === name);
+  //   console.log(projectData);
 
-    setProject(projectData);
-    console.log(project);
-  }, [name]);
+  //   setProject(projectData);
+  //   console.log(project);
+  // }, [name]);
 
   return (
     <>
@@ -28,11 +25,11 @@ const SingleProject = ({ items }) => {
           if (project.name === name) {
             const {
               id,
-              name,
-              technology,
+              // name,
+              // technology,
               github,
-              image,
-              text,
+              // image,
+              // text,
               longtext,
               longtech,
               longpics1,
@@ -45,6 +42,7 @@ const SingleProject = ({ items }) => {
               mantispic3,
               mantispic4,
               mantispic5,
+              live,
             } = project;
             return (
               <article key={id} className="project-item">
@@ -54,21 +52,24 @@ const SingleProject = ({ items }) => {
                 <div className="item-info">
                   <h4 className="item-text">{longtext}</h4>
                   <h4 className="description-text">{longtech}</h4>{" "}
+                  <a className="filter-btn" href={live}>
+                    Link to live website
+                  </a>
                   <a className="filter-btn" href={github}>
                     Link to github
                   </a>
                   <div className="underline"></div>
-                  <img src={mantispic1} className="mantis-img" />
-                  <img src={mantispic2} className="mantis-img " />
-                  <img src={mantispic3} className="mantis-img" />
-                  <img src={mantispic4} className="mantis-img" />
-                  <img src={mantispic5} className="mantis-img" />
+                  <img alt="m1" src={mantispic1} className="mantis-img" />
+                  <img alt="m2" src={mantispic2} className="mantis-img " />
+                  <img alt="m3" src={mantispic3} className="mantis-img" />
+                  <img alt="m4" src={mantispic4} className="mantis-img" />
+                  <img alt="m5" src={mantispic5} className="mantis-img" />
                   <div className="images-container">
-                    <img src={longpics1} className="project-img" />
-                    <img src={longpics2} className="project-img" />
-                    <img src={longpics3} className="project-img" />
-                    <img src={longpics4} className="project-img" />
-                    <img src={longpics5} className="project-img" />
+                    <img alt="l1" src={longpics1} className="project-img" />
+                    <img alt="l2" src={longpics2} className="project-img" />
+                    <img alt="l3" src={longpics3} className="project-img" />
+                    <img alt="l4" src={longpics4} className="project-img" />
+                    <img alt="l5" src={longpics5} className="project-img" />
                   </div>
                 </div>
               </article>

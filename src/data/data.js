@@ -1,7 +1,7 @@
 import connect4 from "../images/longDescription/Connect-4.jpg";
 import med from "../images/longDescription/medi.jpg";
 import stonks from "../images/longDescription/stonks.jpg";
-import bok from "../images/longDescription/bookchap.jpg";
+import feeding from "../images/longDescription/feeding.png";
 
 import book from "../images/longDescription/book.jpg";
 
@@ -20,24 +20,22 @@ import code from "../images/longDescription/Mantis/code.png";
 import d1 from "../images/longDescription/Mantis/d1.png";
 import results from "../images/longDescription/Mantis/results.png";
 import token from "../images/longDescription/Mantis/token.jpg";
-import ta from "../images/longDescription/Mantis/tadiagram.png";
+// import ta from "../images/longDescription/Mantis/tadiagram.png";
 import copy from "../images/longDescription/copy.jpg";
 
 const projects = [
   {
     id: 1,
-    name: "Meditation Timer (Java)",
-    technology: "Android",
-    github: "https://github.com/ajaypatel6/Meditation",
-    image: med,
-
-    text: "Meditation Timer and Stats ",
+    name: "Feeding Ontario Platform (React, Bootstrap)",
+    technology: "Web",
+    github: "https://github.com/ajaypatel6/feedingontario",
+    image: feeding,
+    text: "Platform for Ontarians who are facing food insecurity to find options for food near them ",
     longtext:
-      "A meditation timer for that allows customizable meditation lengths that records overall statistics on your phones local storage.    ",
-    longtech:
-      "Created with Java in Android Studio. Worked with XML to create layouts for various pages. Pushed application to App-store",
-    longpics1: mDash,
-    longpics2: mStats,
+      "Created during prepr F.U.N program, worked in an agile environment with other developers, designers and writers to plan, design and execute a solution.  ",
+    longtech: "React, Bootstrap, Agile, Mural, Figma",
+    longpics: "",
+    live: "https://feedingontario.netlify.app/",
   },
   {
     id: 2,
@@ -56,12 +54,14 @@ const projects = [
     longpics3: dash,
     longpics4: editor,
     longpics5: "",
+    live: "https://play.google.com/store/apps/details?id=ca.ajaypatel.shorts",
+
   },
   {
     id: 3,
     name: "Manage Me (React, Node.js, SQL)",
     technology: "Web",
-    github: "https://github.com/ajaypatel6/",
+    github: "https://github.com/ajaypatel6/ManageMe",
     image:
       "https://kalys-solutions.com/wp-content/uploads/2016/01/time_manage_c.jpg",
     text: "React web app for you to track your daily habits and progress",
@@ -70,6 +70,8 @@ const projects = [
     longtech:
       "Using React for the front end, SQL for db and NODE.js for backend?s",
     longpics: "",
+    live: "https://github.com/ajaypatel6/ManageMe",
+
   },
   {
     id: 4,
@@ -92,6 +94,8 @@ const projects = [
     mantispic3: code,
     mantispic4: "",
     mantispic5: results,
+    live: "https://github.com/ajaypatel6/Mantis",
+
   },
 
   {
@@ -123,29 +127,46 @@ const projects = [
     id: 7,
     name: "AllInvestments",
     technology: "Web",
-    github:
-      "https://github.com/ajaypatel6/investments",
+    github: "https://github.com/ajaypatel6/investments",
     image: stonks,
     text: "Web app to track all investments (crypto, stocks)",
     longtext:
       "Web application (might use react native for mobile transition) that allows you to view all of your investments on one platform",
     longtech: "Using React, Node.js and Postgresql",
     longpics: "",
+    live: "https://github.com/ajaypatel6/investments",
+
   },
+  // {
+  //   id: 8,
+  //   name: "User generated book chapter project",
+  //   technology: "Web",
+  //   github:
+  //     "https://github.com/ajaypatel6/",
+  //   image: bok,
+  //   text: "Web app for users to create quick summaries for books by chapter",
+  //   longtext:
+  //     "In planning ",
+  //   longtech: "technology in progress",
+  //   longpics: "",
+  // },
   {
     id: 8,
-    name: "User generated book chapter project",
-    technology: "Web",
-    github:
-      "https://github.com/ajaypatel6/",
-    image: bok,
-    text: "Web app for users to create quick summaries for books by chapter",
-    longtext:
-      "In planning ",
-    longtech: "technology in progress",
-    longpics: "",
-  },
+    name: "Meditation Timer (Java)",
+    technology: "Android",
+    github: "https://github.com/ajaypatel6/Meditation",
+    image: med,
 
+    text: "Meditation Timer and Stats ",
+    longtext:
+      "A meditation timer for that allows customizable meditation lengths that records overall statistics on your phones local storage.    ",
+    longtech:
+      "Created with Java in Android Studio. Worked with XML to create layouts for various pages. Pushed application to App-store",
+    longpics1: mDash,
+    longpics2: mStats,
+    live: "https://play.google.com/store/apps/details?id=ca.ajaypatel.meditation",
+
+  },
 ];
 
 export default projects;

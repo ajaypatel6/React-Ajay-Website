@@ -71,10 +71,10 @@ div.transbox {
 /* menu for projects */
 .project-title {
   font-size: 1.5rem;
-  color: rgb(0, 174, 255);
+  color: rgb(0, 255, 128);
 }
 .filter-btn {
-  background: transparent;
+  background:rgb(0, 7, 112);
   border-color: transparent;
   font-size: 1.4rem;
   text-transform: capitalize;
@@ -146,13 +146,13 @@ div.transbox {
   }
 }
 .good-btn {
-  background: transparent;
+  background:rgb(0, 183, 255);
   border-color: transparent;
   font-size: 0.9rem;
   margin: 0 0.5rem;
   letter-spacing: 1px;
   padding: 0.375rem 0.75rem;
-  color: rgb(21, 187, 209);
+  color: rgb(5, 52, 58);
   cursor: pointer;
   transition: var(--transition);
   border-radius: var(--radius);
@@ -204,6 +204,17 @@ div.transbox {
   text-align: center;
   margin-bottom: rem;
   color: rgb(0, 174, 255);
+}
+
+.title-menu {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: rem;
+  color: rgb(23, 226, 91);
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+
 }
 
 .description-text {
