@@ -141,7 +141,6 @@ function App() {
                     {/* <i class="fa fa-map-marked-alt text-primary mb-2"></i> */}
                     <h4 class="text-uppercase m-0">Location</h4>
                     <hr class="my-4 mx-auto" />
-                    <div class="small text-black-50">Hamilton, Ontario</div>
                   </div>
                 </div>
               </div>
@@ -157,7 +156,6 @@ function App() {
                         href="mailto:ajaypatel23623@gmail.com"
                         className="footer-seperation footer-btn"
                       >
-                        ajaypatel23623@gmail.com
                       </a>{" "}
                     </div>
                   </div>
@@ -199,7 +197,7 @@ function App() {
                     <div class="small text-black-50">
                       {" "}
                       <a
-                        href="https://www.linkedin.com/in/ajay-patel-13b13b113/"
+
                         // className="footer-seperation footer-btn"
                       >
                         Add me on LinkedIn
@@ -217,9 +215,7 @@ function App() {
                     <div class="small text-black-50">
                       {" "}
                       <a
-                        href="AjayPatel.pdf"
-                        // className="footer-seperation footer-btn"
-                        download
+
                       >
                         Download Resume
                       </a>
