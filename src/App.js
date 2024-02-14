@@ -152,11 +152,6 @@ function App() {
                     <h4 class="text-uppercase m-0">Email</h4>
                     <hr class="my-4 mx-auto" />
                     <div class="small text-black-50">
-                      <a
-                        href="mailto:ajaypatel23623@gmail.com"
-                        className="footer-seperation footer-btn"
-                      >
-                      </a>{" "}
                     </div>
                   </div>
                 </div>
@@ -178,12 +173,7 @@ function App() {
                     <h4 class="text-uppercase m-0">Github</h4>
                     <hr class="my-4 mx-auto" />
                     <div class="small text-black-50">
-                      <a
-                        href="https://github.com/ajaypatel6"
-                        // className="footer-seperation footer-btn "
-                      >
-                        See all my projects
-                      </a>
+
                     </div>
                   </div>
                 </div>
